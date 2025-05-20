@@ -1,39 +1,12 @@
-<<<<<<< HEAD
-# 🛡️ AI-Powered Fraud Detection Project
+# React + Vite
 
-## 📚 Overview
-This project is an AI-powered system designed to detect fraudulent activities in financial transactions.  
-It includes a **React-based frontend**, a **Node.js/Express backend**, and a set of **machine learning models** for fraud detection.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🏗️ Project Structure
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-```plaintext
-fraud-detection-project/
-├── frontend/    # React application
-├── backend/     # Express.js server and APIs
-├── ml-model/    # Machine learning models (Python)
-├── docs/        # Documentation and assets
-├── README.md    # Project overview
-├── .gitignore   # Ignored files list
-=======
-# 🛡️ AI-Powered Fraud Detection Project
+## Expanding the ESLint configuration
 
-## 📚 Overview
-This project is an AI-powered system designed to detect fraudulent activities in financial transactions.  
-It includes a **React-based frontend**, a **Node.js/Express backend**, and a set of **machine learning models** for fraud detection.
-
----
-
-## 🏗️ Project Structure
-
-```plaintext
-fraud-detection-project/
-├── frontend/    # React application
-├── backend/     # Express.js server and APIs
-├── ml-model/    # Machine learning models (Python)
-├── docs/        # Documentation and assets
-├── README.md    # Project overview
-├── .gitignore   # Ignored files list
->>>>>>> 2afce4fbbc8e4fd237cac30b94f2116a2fe49655
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
